@@ -1,0 +1,41 @@
+.rodape{
+    height: 100px;
+    width: 100vw;
+    border-bottom: black solid 1px;
+}
+
+.posição_interesses{
+    text-align: center;
+    padding-top: 28px;
+}
+
+.margem_texto{
+    display: block;
+    margin-left: 320px;
+    margin-right: 300px;
+    margin-top: 40px;
+
+}
+
+#projeto1{
+    float:left;
+    margin-left: 50px;
+    max-width:130px
+}
+
+#projeto2{
+    float:right;
+    margin-right: 50px;
+    max-width:130px;
+}
+
+#projeto3{
+    display: block;
+    margin: auto;
+    max-width:130px;
+}
+
+.posição_textos{
+    margin-left: 78px;
+    margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+
+.rodape{
+    height: 200px;
+    width: 100vw;
+    border-bottom: black solid 1px;
+}
+
+#imagem{
+    display: block;
+    margin: auto;
+    max-width:380px;
+    max-height:380px;
+}
+
+#foto{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    max-width:180px;
+    max-height:180px;
+}
+
+.info_base{
+    text-align: center;
+}
+
+.margem_texto{
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+}
