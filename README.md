@@ -33,5 +33,6 @@ Trabalho de Design Digital - Site Pessoal
 * Pagina "Interesses/Hobbies" - Conteúdo a respeito do meu "Eu" pessoal, coisas que gosto, o que costumo fazer no meu tempo livre...<br>
 * Pagina "Trabalhos Desenvolvidos e Futuros" - Conteúdo profissional a meu respeito, onde já trabalhei, trabalhos que desenvolvi (mesmo que fora da área), e futuros trabalhos que penso/pretendo desenvolver.
 
-### Link YouTube:
+### Link YouTube: 
+https://youtu.be/ek2nkrsnr6Q
 
