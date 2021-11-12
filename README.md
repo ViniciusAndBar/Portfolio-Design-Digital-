@@ -25,8 +25,8 @@ Trabalho de Design Digital - Site Pessoal
  
 ### Descrição das pastas:
 
-* doc: PDF´s Wireframes, imagens utilizadas
-* src: Códigos do projeto
+* doc: PDF´s Wireframes
+* src: Imagens utilizadas e Códigos do projeto
 
 ### Estrutura:
 * Pagina "Sobre Mim" - Conteúdo a respeito de mim, incluindo nome, cidade, informações educacionais...<br>
