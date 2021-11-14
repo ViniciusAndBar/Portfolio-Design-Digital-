@@ -9,46 +9,53 @@
 
     <link rel="stylesheet" href="../Static/Stiles/estrutura global .css">
     <link rel="stylesheet" href="../Static/Stiles/Interesses .css ">
+    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
 
 
 
 <body>
     <header class="header">
-        <img src="../Static/imagens/Logo Gemeos.png" alt="Logo">
-        <div class="div link" style="margin-top: 30px;">
+        <img class="logo_gemeos" src="../Static/imagens/Logo Gemeos.png" alt="Logo">
+        <div class="div link" style= "margin-top: 20px;">
             <a href="../Template/sobre mim .html">Sobre Mim |</a>
             <a href="../Template/Interesses .html"><b>Interesses |</b></a>
             <a href="../Template/Trabalhos Desenvolvidos .html">Trabalhos Desenvolvidos</a>
         </div>
     </header>
-
-    <main>
-        <div class="rodape">
-            <div class="posição_interesses">
-                <h1>INTERESSES</h1>
-            </div>
+    
+    <div class="rodape">
+        <div class="posição_interesses">
+            <h1>INTERESSES</h1>
         </div>
-
+    </div>
+    
+    <main>
         <div class="margem_texto">
-            <div>
-                <p><img id=animais src="../Static/imagens/Animais.jpg" alt="animais" /><b> Animais:</b> Desde pequeno, sempre adorei animais, adorava acompanhar o que os animais do meu jardim faziam e, como cresci vendo minha mãe cuidando do cachorro que ela tinha, creio que me afeiçoei a cachorros em especifico. Porém, desde pequeno eu nunca gostei de ver animais presos, tanto que quando tentaram me dar um casal de Calopsita (eu devia ter em torno de 5 anos) eu acabei soltando elas. Em toda minha vida, eu já tive: Diversos Peixes, 1 Siri (Compramos um aquario daora pra ele), 2 cachorros, alguns pássaros (que caiam de seus ninhos aqui do jardim de casa e agente cuidava até aprenderem a voar) e já ajudei a cuidar de alguns gatos que moraram na minha tia.</p><br>
-                <p><img id=jogos src="../Static/imagens/Jogos.png" alt="jogos"> <b>Jogos:</b> Curto jogar no meu tempo livre, e, se tratando de jogos, eu diria que sou bem eclético e que curto um pouco de tudo, desde jogos indie até os mais conhecidos. Atualmente, estou jogando bastante MOBA e FPS (League of Legends e Conter Strike respectivamente) e diria que sou bem melhor nos FPS. Já fiz diversas amizades online e essa é uma das coisas que mais me chama atenção em jogos online, muitas dessas amizades com o tempo acabam, mas é interessante conhecer pessoas de lugares diferentes, tanto que se alguém que estiver lendo quiser me adicionar pra jogar algo, meus nick são: Byg0ne (no Lol) e meu código na Steam é: 360433283.</p><br>
-                <p><img id=series_animes src="../Static/imagens/Animes e Series.png" alt="series_animes"><b> Series/Animes: </b> Outra coisa que faço bastante no meu tempo livre é assistir séries, não sou muito fan de séries longas (Tirando "Supernatural" e "Lá Casa de Papel" que logo logo vai ficar gigante também), mas já assisti algumas. No geral me interesso por séries que sejam sobre algo que eu goste, como "O Gambito da Rainha", uma das, se não a melhor miniserie que já assisti. Além de series, também curto algumas coisas da cultura Japonesa, em especial os animes e os mangas (Manhwas também), tentando sempre filtrar levando em conta meu gosto e as críticas. Também tento pegar referências com amigos sobre o que assistir e ler, dando sempre uma olhada antes, para conferir o conteúdo, é claro. </p><br>
-            </div>
+            <span>
+                <p><img class="animais" src="../Static/imagens/Animais.jpg" alt="animais" /><b> Animais:</b> Desde pequeno, sempre adorei animais, adorava acompanhar o que os animais do meu jardim faziam e, como cresci vendo minha mãe cuidando do cachorro que ela tinha, creio que me afeiçoei a cachorros em especifico. Porém, desde pequeno eu nunca gostei de ver animais presos, tanto que quando tentaram me dar um casal de Calopsita (eu devia ter em torno de 5 anos) eu acabei soltando elas. Em toda minha vida, eu já tive: Diversos Peixes, 1 Siri (Compramos um aquario daora pra ele), 2 cachorros, alguns pássaros (que caiam de seus ninhos aqui do jardim de casa e agente cuidava até aprenderem a voar) e já ajudei a cuidar de alguns gatos que moraram na minha tia.</p><br>
+                <p><img class="jogos" src="../Static/imagens/Jogos.png" alt="jogos"> <b>Jogos:</b> Curto jogar no meu tempo livre, e, se tratando de jogos, eu diria que sou bem eclético e que curto um pouco de tudo, desde jogos indie até os mais conhecidos. Atualmente, estou jogando bastante MOBA e FPS (League of Legends e Conter Strike respectivamente) e diria que sou bem melhor nos FPS. Já fiz diversas amizades online e essa é uma das coisas que mais me chama atenção em jogos online, muitas dessas amizades com o tempo acabam, mas é interessante conhecer pessoas de lugares diferentes, tanto que se alguém que estiver lendo quiser me adicionar pra jogar algo, meus nick são: Byg0ne (no Lol) e meu código na Steam é: 360433283.</p><br>
+                <p><img class="series_animes" src="../Static/imagens/Animes e Series.png" alt="series_animes" ><b> Series/Animes: </b> Outra coisa que faço bastante no meu tempo livre é assistir séries, não sou muito fan de séries longas (Tirando "Supernatural" e "Lá Casa de Papel" que logo logo vai ficar gigante também), mas já assisti algumas. No geral me interesso por séries que sejam sobre algo que eu goste, como "O Gambito da Rainha", uma das, se não a melhor miniserie que já assisti. Além de series, também curto algumas coisas da cultura Japonesa, em especial os animes e os mangas (Manhwas também), tentando sempre filtrar levando em conta meu gosto e as críticas. Também tento pegar referências com amigos sobre o que assistir e ler, dando sempre uma olhada antes, para conferir o conteúdo, é claro. </p><br>
+            </span>
         </div>
     </main>
 
     <footer>
         <h4>E-mail: vini.zeus2002@gmail.com</h4>
-        <div>
+        <div class="contato">
             Contato: (12)98884-5554
         </div>
     </footer>
+
+    
 </body>
 
 
