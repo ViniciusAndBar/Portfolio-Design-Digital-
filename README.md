@@ -22,6 +22,18 @@ Trabalho de Design Digital - Site Pessoal
 * Esse  sistema  deverá  fazer  uso  de  arquivo  de  fonte  externa,  disponibilizado  pelo  servidor  da aplicação, sendo que a tipografia deve ser adequada à natureza do uso escolhido (ex. uma fonte com  espaçamento  igual  é  apropriada  para  ilustrar  código-fonte  de  um  programa  de computador).<br>
 
 * Esse sistema deverá conter ao menos uma imagem ou logotipo que seja único e que contribua para  dar  uma  identidade  visual  ao  mesmo  (o  uso  dessa  imagem  ou  logotipo  fica  a  cargo  do aluno). A foto do autor não é contabilizada como “imagem única” da identidade visual. Esse  sistema  deve  aplicar  a  tecnologia/conceito  de utilização  de  arquivos  de  imagens responsivas.<br>
+
+#Segunda Entrega
+* Assegure-se de cumprir todos os requisitos de dados e informações da aplicação (conteúdo completo do sistema).<br>
+
+* Assegure-se de que o sistema funcione adequadamente para dispositivo móvel e desktop.<br>
+
+* Assegure-se de usar um framework para CSS, conforme solicitado nos requisitos não funcionais.<br>
+
+* Efetue todas as correções apontadas pelo professor na entrega 1 (caso não tenha obtido 100% na avaliação anterior ou caso o professor tenha sugerido alguma alteração).<br>
+* Marque sua entrega no repositório com uma tag do Git/GitHub.<br>
+
+* Forneça, no arquivo README.MD, um link para o vídeo, hospedado no YouTube, onde você apresenta o sistema tanto para a versão mobile como para a versão desktop. Esse vídeo deve ter duração entre 1 e 3 minutos.<br.
  
 ### Descrição das pastas:
 
