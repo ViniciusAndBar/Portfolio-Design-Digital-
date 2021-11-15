@@ -33,7 +33,7 @@ Trabalho de Design Digital - Site Pessoal
 * Efetue todas as correções apontadas pelo professor na entrega 1 (caso não tenha obtido 100% na avaliação anterior ou caso o professor tenha sugerido alguma alteração).<br>
 * Marque sua entrega no repositório com uma tag do Git/GitHub.<br>
 
-* Forneça, no arquivo README.MD, um link para o vídeo, hospedado no YouTube, onde você apresenta o sistema tanto para a versão mobile como para a versão desktop. Esse vídeo deve ter duração entre 1 e 3 minutos.<br.
+* Forneça, no arquivo README.MD, um link para o vídeo, hospedado no YouTube, onde você apresenta o sistema tanto para a versão mobile como para a versão desktop. Esse vídeo deve ter duração entre 1 e 3 minutos.<br>
  
 ### Descrição das pastas:
 
