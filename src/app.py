@@ -4,7 +4,7 @@ minha_app = Flask(__name__)
 
 @minha_app.route('/')
 def home():
-    return render_template('sobre mim.html', tittle='sobre mim')
+    return render_template('sobre_mim.html', tittle='sobre mim')
 
 @minha_app.route('/Interesses')
 def interesses():
@@ -12,7 +12,7 @@ def interesses():
 
 @minha_app.route('/Trabalhos')
 def trabalhos():
-    return render_template('trabalhos Desenvolvidos.html', tittle='trabalhos desenvolvidos')
+    return render_template('trabalhos_Desenvolvidos.html', tittle='trabalhos desenvolvidos')
 
 if __name__ == '__main__':
     minha_app.run()
