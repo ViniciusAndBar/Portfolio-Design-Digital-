@@ -39,6 +39,8 @@ Trabalho de Design Digital - Site Pessoal
 
 * doc: PDF´s Wireframes
 * src: Imagens utilizadas e Códigos do projeto
+* requirements: requisitos do sistema
+* Procfile: Comando de execução da aplicação
 
 ### Estrutura:
 * Pagina "Sobre Mim" - Conteúdo a respeito de mim, incluindo nome, cidade, informações educacionais...<br>
@@ -50,4 +52,7 @@ https://youtu.be/ek2nkrsnr6Q
 
 ### Link YouTube segunda entrega:
 https://www.youtube.com/watch?v=EFODI-40RoE
+
+### Link aplicação:
+https://portifolio-vinicius-22.herokuapp.com/
 
