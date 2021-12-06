@@ -8,11 +8,11 @@ def home():
 
 @minha_app.route('/Interesses')
 def interesses():
-    return render_template('Interesses.html', tittle='interesses')
+    return render_template('interesses.html', tittle='interesses')
 
 @minha_app.route('/Trabalhos')
 def trabalhos():
-    return render_template('Trabalhos Desenvolvidos.html', tittle='trabalhos desenvolvidos')
+    return render_template('trabalhos Desenvolvidos.html', tittle='trabalhos desenvolvidos')
 
 if __name__ == '__main__':
     minha_app.run('0.0.0.0')
