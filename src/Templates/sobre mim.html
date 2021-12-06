@@ -1,14 +1,18 @@
+{% extends 'base.html' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% block head %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mim</title>
 
 
-    <link rel="stylesheet" href="../Static/Stiles/estrutura global .css">
-    <link rel="stylesheet" href="../Static/Stiles/sobre mim .css">
+    <link rel="stylesheet" href="../static/styles/estrutura global.css">
+    <link rel="stylesheet" href="../static/styles/sobre mim.css">
+    
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
@@ -17,28 +21,31 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
+    {% endblock %}
+
 </head>
 
 
 
 <body>
+    {% block main %}
     <header class="header">
-        <img class="logo_gemeos" src="../Static/imagens/Logo Gemeos.png" alt="Logo">
+        <img class="logo_gemeos" src="../static/imagens/Logo Gemeos.png" alt="Logo">
         <div class="div link" style= "margin-top: 20px;">
-            <a href="../Template/sobre mim .html"> <b>Sobre Mim |</b></a>
-            <a href="../Template/Interesses .html">Interesses</a>
-            <a href="../Template/Trabalhos Desenvolvidos .html">| Trabalhos Desenvolvidos</a>
+            <a href="/"> <b>Sobre Mim |</b></a>
+            <a href="/Interesses">Interesses</a>
+            <a href="/Trabalhos">| Trabalhos Desenvolvidos</a>
         </div>
     </header>
 
     <div class="rodape">
         <div>
-            <img id=imagem src="../Static/imagens/Bem Vindo.png" alt="Bem Vindo">
+            <img id=imagem src="../static/imagens/Bem Vindo.png" alt="Bem Vindo">
         </div>
     </div>
     <main>
         <div class="corpo_texto">
-            <img id=foto src="../Static/imagens/foto.jpg" alt="Foto de Perfil">
+            <img id=foto src="../static/imagens/foto.jpg" alt="Foto de Perfil">
             <div class="info_base">
                 <h5>Vinícius Andrade Barbosa</h5>
                 <h6>Rua Marcolino José Maria</h6>
@@ -62,13 +69,8 @@
             </div>
         </div>
     </main>
+    {% endblock %}
 
-    <footer>
-        <h4>E-mail: vini.zeus2002@gmail.com</h4>
-        <div class="contato">
-            Contato: (12)98884-5554
-        </div>
-    </footer>
 </body>
 
 
