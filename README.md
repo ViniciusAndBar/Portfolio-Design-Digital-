@@ -48,3 +48,6 @@ Trabalho de Design Digital - Site Pessoal
 ### Link YouTube: 
 https://youtu.be/ek2nkrsnr6Q
 
+### Link YouTube segunda entrega:
+https://www.youtube.com/watch?v=EFODI-40RoE
+
