@@ -12,7 +12,7 @@ def interesses():
 
 @minha_app.route('/Trabalhos')
 def trabalhos():
-    return render_template('trabalhos_Desenvolvidos.html', tittle='trabalhos desenvolvidos')
+    return render_template('trabalhos_desenvolvidos.html', tittle='trabalhos desenvolvidos')
 
 if __name__ == '__main__':
     minha_app.run()
