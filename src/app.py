@@ -15,4 +15,4 @@ def trabalhos():
     return render_template('trabalhos Desenvolvidos.html', tittle='trabalhos desenvolvidos')
 
 if __name__ == '__main__':
-    minha_app.run('0.0.0.0')
+    minha_app.run()
